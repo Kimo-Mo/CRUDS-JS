@@ -176,7 +176,7 @@ function searchData(value) {
       if (products[i].title.toLowerCase().includes(value.toLowerCase())) {
         table += `
     <tr>
-      <td>${i}</td>
+      <td>${i+1}</td>
       <td>${products[i].title}</td>
       <td>${products[i].price}</td>
       <td>${products[i].taxes}</td>
